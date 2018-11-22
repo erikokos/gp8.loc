@@ -1,20 +1,9 @@
-/*start of temporary styles*/
-.red {
-	background-color: red;
-}
-
-.blue {
-	background-color: blue;
-}
-
-.green {
-	background-color: green;
-}
-
-.gold {
-	background-color: gold;
-}
-/*end of temporary styles*/
+/*
+date - 22.11.2018
+gp8.loc - web site style sheet
+current branch - master
+current stat - dev
+*/
 
 /*GLOBAL STYLES =( start here */
 * {
@@ -144,18 +133,14 @@ body {
 	}
 
 /*footbanner - start*/
-.footbanner_cont {
-	
+.footbanner {
+	justify-content: center;
 }
 
-	.footbanner {
-		justify-content: center;
-	}
-
-	.banner_foot { 
-		margin-top: 1rem;
-		height: 5rem;
-	}
+.banner_foot { 
+	margin-top: 1rem;
+	height: 5rem;
+}
 
 /*footer - start*/
 footer {
