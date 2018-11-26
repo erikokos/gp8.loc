@@ -22,10 +22,14 @@ body {
 	border: 0;
 }
 
+.selected {
+	color: gold;
+}
+
 /*header: logo, infotab, photo - start*/
 .header {
 	background-color: blue;
-	margin-top: 6vh;
+	margin-top: 3rem;
 }
 
 	.logo {
@@ -36,16 +40,12 @@ body {
 	}
 
 	.inf {
-		font-size: 2.2vh;
+		font-size: 1rem;
 		color: white;
 		text-align: center;
-		padding-top: 2vh;
-
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
-		.inf p {
-			margin-top: 2vh;
-			line-height: 0.5rem;
-		}
 
 	.photo {
 		background-image: url(img/photo.jpg);
