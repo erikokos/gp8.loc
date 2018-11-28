@@ -107,6 +107,17 @@ body {
 		margin: 0;
 	}
 
+		/*dropdown menu styles*/
+		.dropdown-submenu {
+		  position: relative;
+		}
+
+		.dropdown-submenu .dropdown-menu {
+		  /*top: 100%;
+		  left: 100%;*/
+		  margin-top: -1px;
+		}
+
 /*content - start*/
 .mironych {
 	margin-right: 1rem;
